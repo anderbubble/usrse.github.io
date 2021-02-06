@@ -101,19 +101,33 @@ do not expire.
 A community document is a living document that represents a community effort
 to discuss a question or idea. We call it "living" because we encourage community
 members to edit and contribute to the documents over time, and so there isn't
-a "publish" data associated with it. Every contribution or update is then reviewed
-by community members via a pull request. To edit a living document that exists, 
-you can browse the [_docs](_docs) folder. To create a new one, simply
-create a new file in this same folder (likely using another document as a
-starting template) and start writing! You can ping others in the USRSE slack
-to also contribute. It's also recommended to start the document as a Google
-Document for easier commenting and editing, and then move here when it's
-in a final first draft state. For community documents, the following
-points apply:
+a "publish" data associated with it. For this reason, we use [the wiki](https://github.com/USRSE/usrse.github.io/wiki) associated
+with the repository here. 
 
-1. You should first work on your document in Google Docs or similar, where you can bring in multiple community members to put together a first draft. Importantly, you should make sure that the content adheres to the US-RSE [Code of Conduct](https://us-rse.org/code-of-conduct/). At least 3 community members (including yourself) are required before submitting the document to the site. You should feel that it's in a solid "first draft state" before doing a submission.
-2. When a document is newly submit, it must receive three reviews on GitHub, and also be approved for inclusion by the [steering-committee](https://us-rse.org/steering-committee/). Both should verify that 1) the content is of interest to the RSE community, and 2) the content does not violate the Code of Conduct.
-3. After the living document has been added, the owner of it (the individual that originally came up with the idea or submitted the document) is in charge of it's future updates. This means that if a pull request comes in with changes, the owner serves as the main reviewer and is also responsible for bringing in other community members to the discussion. The steering committee is not involved with these further updates unless there is a disagreement about content, in which case it should be brought to their attention for a final decision.
+![assets/img/usrse-book-small.png](assets/img/usrse-book-small.png)
+
+If you ever need to clone this content, you can do:
+
+```bash
+$ git clone git@github.com/USRSE/usrse.github.io/wiki
+```
+
+During the testing phase of the living documents, the wiki will only be editable by community (repository)
+members, however we might open this up to include others as well. 
+
+#### How do I edit an existing document?
+
+To edit a living document that exists, you can browse the [wiki](https://github.com/USRSE/usrse.github.io/wiki) to update it. Generally, we are organizing topics as they are added, so if you want to add a new category or change existing organization, please do so. 
+
+#### How do I start a new document?
+
+If you want to add a new document, while you might add it directly to the wiki, it's recommended to get others
+involved first. You can ping others in the USRSE slack to contribute, and it's also recommended to start the document as a Google
+Document for easier commenting and editing, and then move to the wiki when it's in a final first draft state. 
+For all community documents, the following points apply:
+
+1. It's strongly suggested to first work on your document in Google Docs or similar, where you can bring in multiple community members to put together a first draft. Importantly, you should make sure that the content adheres to the US-RSE [Code of Conduct](https://us-rse.org/code-of-conduct/). At least 3 community members (including yourself) are required before submitting the document to the site. You should feel that it's in a solid "first draft state" before doing a submission.
+2. You should verify that 1) the content is of interest to the RSE community, and 2) the content does not violate the Code of Conduct. Any material added to the wiki that does not follow these rules is subject to removal. If you see content on the wiki that is not appropriate or otherwise breaks these rules, please open an issue on the repository immediately, or contact the steering committee.
 
 If you want to start a community document and would like some help or to talk with
 others, we encourage you to post on the USRSE slack or write an issue here.
